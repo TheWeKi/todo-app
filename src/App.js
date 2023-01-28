@@ -12,6 +12,7 @@ import { AuthenticatedRoute } from './security/AuthenticatedRoute';
 import { TodoComponent } from './Components/TodoComponent';
 
 function App() {
+
 	return (
 		<LoginContext>
 			<BrowserRouter>
@@ -43,6 +44,7 @@ function App() {
 			</BrowserRouter>
 		</LoginContext>
 	);
+	
 }
 
 export default App;
